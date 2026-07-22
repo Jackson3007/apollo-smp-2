@@ -14,6 +14,12 @@ jobs:
           distribution: temurin
           java-version: '25'
           cache: maven
+      - name: Show available paper-api versions
+        run: |
+          echo "================ AVAILABLE paper-api VERSIONS ================"
+          curl -s "https://repo.papermc.io/repository/maven-public/io/papermc/paper/paper-api/maven-metadata.xml"
+          echo ""
+          echo "================ END VERSIONS ================"
       - name: Build the plugin
         run: mvn -B package
       - name: Upload the finished jar
