@@ -12,7 +12,7 @@
     <description>Branded economy core for Apollo SMP (Purpur/Paper 1.21.x)</description>
 
     <properties>
-        <maven.compiler.release>21</maven.compiler.release>
+        <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Matches Minecraft/Purpur 26.2 (the new calendar-based versioning).
              The plugin uses no NMS, so this also runs on newer 26.x builds. -->
